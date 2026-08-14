@@ -1,3 +1,45 @@
 # Godot 4+ specific ignores
 .godot/
-/android/
+.import/
+
+# Godot-specific ignores
+android/
+*.translation
+
+# Godot export ignores
+*.apk
+*.aab
+*.pck
+*.zip
+
+# Imported translations
+/locale/
+
+# Mono / .NET
+.mono/
+data_*/
+mono_crash.*.json
+
+# System/tooling ignores
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.vs/
+.idea/
+.vscode/
+
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs / temp
+*.log
+*.tmp

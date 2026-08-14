@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mdxsiee4rlk5"
-path="res://.godot/imported/ethereum-2.png-406708af7e8174c8758f9a431bd1667e.ctex"
+path="res://.godot/imported/ethereum-2.png-178db46bb99ca1f07f50e66047200013.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://levels/props/collectibles/ethereum-2.png"
-dest_files=["res://.godot/imported/ethereum-2.png-406708af7e8174c8758f9a431bd1667e.ctex"]
+dest_files=["res://.godot/imported/ethereum-2.png-178db46bb99ca1f07f50e66047200013.ctex"]
 
 [params]
 

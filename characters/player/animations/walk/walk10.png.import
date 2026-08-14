@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgpu4d4tlsp0u"
-path="res://.godot/imported/walk10.png-eb168fbb0e98384b0f6c92b5e514b4f7.ctex"
+path="res://.godot/imported/walk10.png-7e4bb4d101eee3403f5ccf85c6a8c7cf.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://characters/player/animations/walk/walk10.png"
-dest_files=["res://.godot/imported/walk10.png-eb168fbb0e98384b0f6c92b5e514b4f7.ctex"]
+dest_files=["res://.godot/imported/walk10.png-7e4bb4d101eee3403f5ccf85c6a8c7cf.ctex"]
 
 [params]
 

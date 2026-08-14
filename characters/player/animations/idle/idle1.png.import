@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://droe2qojjxg1o"
-path="res://.godot/imported/idle1.png-e3b1ed40242c3fa69e5ecb102c0b76e1.ctex"
+path="res://.godot/imported/idle1.png-a44ded26eed0c5e061732766c11e56b0.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://characters/player/animations/idle/idle1.png"
-dest_files=["res://.godot/imported/idle1.png-e3b1ed40242c3fa69e5ecb102c0b76e1.ctex"]
+dest_files=["res://.godot/imported/idle1.png-a44ded26eed0c5e061732766c11e56b0.ctex"]
 
 [params]
 
