@@ -2,6 +2,11 @@
 
 [ext_resource type="Texture2D" uid="uid://droe2qojjxg1o" path="res://characters/player/animations/idle/idle1.png" id="1_bwjto"]
 [ext_resource type="Script" uid="uid://cooa11vss0awk" path="res://characters/player/player.gd" id="1_dkpta"]
+[ext_resource type="Script" path="res://characters/player/states/state_machine.gd" id="15_state"]
+[ext_resource type="Script" path="res://characters/player/states/idle_state.gd" id="16_idle"]
+[ext_resource type="Script" path="res://characters/player/states/walk_state.gd" id="17_walk"]
+[ext_resource type="Script" path="res://characters/player/states/jump_state.gd" id="18_jump"]
+[ext_resource type="Script" path="res://characters/player/states/fall_state.gd" id="19_fall"]
 [ext_resource type="Texture2D" uid="uid://bd2011tfoqh0m" path="res://characters/player/animations/idle/idle2.png" id="2_606se"]
 [ext_resource type="Texture2D" uid="uid://dureo4rm2qxds" path="res://characters/player/animations/idle/idle3.png" id="3_u1c27"]
 [ext_resource type="Texture2D" uid="uid://bqrqovdiyraod" path="res://characters/player/animations/idle/idle4.png" id="4_op7ga"]
@@ -78,6 +83,7 @@ size = Vector2(20, 43)
 script = ExtResource("1_dkpta")
 
 [node name="Sprite" type="AnimatedSprite2D" parent="." unique_id=1878874621]
+unique_name_in_owner = true
 sprite_frames = SubResource("SpriteFrames_mhbow")
 animation = &"idle"
 frame_progress = 0.6569805
@@ -87,3 +93,19 @@ position = Vector2(-4, 10)
 shape = SubResource("RectangleShape2D_mhbow")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1223850569]
+
+[node name="StateMachine" type="Node" parent="."]
+script = ExtResource("15_state")
+initial_state = NodePath("Idle")
+
+[node name="Idle" type="Node" parent="StateMachine"]
+script = ExtResource("16_idle")
+
+[node name="Walk" type="Node" parent="StateMachine"]
+script = ExtResource("17_walk")
+
+[node name="Jump" type="Node" parent="StateMachine"]
+script = ExtResource("18_jump")
+
+[node name="Fall" type="Node" parent="StateMachine"]
+script = ExtResource("19_fall")
